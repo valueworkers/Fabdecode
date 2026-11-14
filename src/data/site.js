@@ -12,6 +12,7 @@ export const pageTitles = {
   plans: 'Subscription plans · fabDecode',
   mills: 'Mill partner portal · fabDecode',
   request: 'Submit a swatch · fabDecode',
+  cart: 'Your cart · fabDecode',
 }
 
 export const palettes = [

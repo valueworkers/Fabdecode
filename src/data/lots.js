@@ -2,8 +2,8 @@ const plain = (values) => values.map((v) => ({ value: v, label: v }))
 
 export const exchangeHead = {
   flag: 'Ready-Stock Mill Exchange',
-  title: 'A searchable catalogue sorted the way buyers specify fabric.',
-  lede: 'Filter by structure, fibre, GSM range, finish and ready quantity. The rows below are sample lots that show the layout.',
+  title: 'Browse ready-stock fabric from our live Wix catalog.',
+  lede: 'Search current listings, check price and availability, then open a product on Wix to choose options and place an order.',
 }
 
 export const filterFields = [

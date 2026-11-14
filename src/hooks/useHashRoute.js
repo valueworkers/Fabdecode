@@ -1,7 +1,7 @@
 import { useSyncExternalStore } from 'react'
 import { navLinks } from '../data/site.js'
 
-const known = new Set(navLinks.map((l) => l.route))
+const known = new Set([...navLinks.map((l) => l.route), 'cart'])
 
 function subscribe(onChange) {
   window.addEventListener('hashchange', onChange)

@@ -7,6 +7,7 @@ import ExchangePage from './pages/ExchangePage.jsx'
 import PlansPage from './pages/PlansPage.jsx'
 import MillsPage from './pages/MillsPage.jsx'
 import RequestPage from './pages/RequestPage.jsx'
+import CartPage from './pages/CartPage.jsx'
 
 const pages = {
   home: HomePage,
@@ -14,6 +15,7 @@ const pages = {
   plans: PlansPage,
   mills: MillsPage,
   request: RequestPage,
+  cart: CartPage,
 }
 
 export default function App() {
